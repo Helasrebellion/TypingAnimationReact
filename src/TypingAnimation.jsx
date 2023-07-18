@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const TypingAnimation = () => {
-  const textToType = 'Sylvia Mullins';
+  const textToType = '> Sylvia Mullins';
   const typingSpeed = 100; // milliseconds per character
   const [typedText, setTypedText] = useState('');
   const [showCursor, setShowCursor] = useState(true);
