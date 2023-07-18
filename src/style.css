@@ -1,0 +1,21 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #111;
+  color: #00ff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#console {
+  white-space: pre;
+  font-family: inherit;
+  font-size: 18px;
+  border: 2px solid #00ff00;
+  padding: 20px;
+  background-color: #000;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+  overflow: hidden;
+}
